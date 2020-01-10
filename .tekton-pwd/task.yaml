@@ -9,8 +9,10 @@ spec:
     command: ["/bin/sh", "-c"]
     args:
     - echo $(pwd);
+      env;
   - name: kube-hunter
     image: aquasec/kube-hunter 
     command: ["/bin/sh", "-c"]
     args:
     - echo $(pwd);
+      env;
