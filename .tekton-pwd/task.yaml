@@ -4,7 +4,7 @@ metadata:
   name: task
 spec:
   steps:
-  - name: check-ubuntu-workingDir
+  - name: check-ubuntu-workingdir
     image: ubuntu
     command: ["/bin/sh", "-c"]
     args:
